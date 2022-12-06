@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{58376902-0163-4f33-9051-4da11f263bc8}">
+		<property name="assetPath">
+			<value>583262__pfranzen__dropping-a-smoke-bomb-on-the-ground.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.1604761904761904</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52bfe31c-9743-432c-b53c-d021dee00409}</destination>
+		</relationship>
+	</object>
+</objects>

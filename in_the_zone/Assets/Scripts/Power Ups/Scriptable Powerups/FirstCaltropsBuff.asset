@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286896b95116c884fa18339f5e77dcce, type: 3}
+  m_Name: FirstCaltropsBuff
+  m_EditorClassIdentifier: 
+  caltropsPrefap: {fileID: 7564408330137453475, guid: d3fb4b4b74ee2f74caba815fefbd9d52,
+    type: 3}
+  backOfTheCarPosition: {x: -26.15855, y: 0.45000216, z: -79.31976}
+  backWheels: {fileID: 0}

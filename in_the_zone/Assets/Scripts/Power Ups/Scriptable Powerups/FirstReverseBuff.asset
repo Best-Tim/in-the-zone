@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f547ebf1aed68f43bc9cc0afcede7b2, type: 3}
+  m_Name: FirstReverseBuff
+  m_EditorClassIdentifier: 
+  playerName: 
+  duration: 5042
+  playerObject: {fileID: 0}
+  targetReverse: {fileID: 0}
+  slowDownPrefab: {fileID: 784943664356881892, guid: b2e057f9c821a914c95ef79e3a673e56,
+    type: 3}
+  spawnPoint: {fileID: 0}

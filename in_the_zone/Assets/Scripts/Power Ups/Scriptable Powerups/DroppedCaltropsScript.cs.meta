@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47678d55f26918a45a39e0a4979608bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pickupEffect: {instanceID: 0}
+  - slowDownPrefab: {fileID: 3744421911435332387, guid: 653c3732efbc40d42a18d07465d2a592,
+      type: 3}
+  - spawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

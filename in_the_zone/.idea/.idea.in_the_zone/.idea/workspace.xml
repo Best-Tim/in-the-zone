@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57fe2989-dcf7-4263-aab9-476849f3d5be" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MiniObjectivesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Power Ups/FlagPowerUps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Power Ups/PowerUpManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util Scripts/ResetScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ehs6aGCaXddKFkKXgaXv1grO7e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../InDaZone\in_the_zone.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\InDaZone" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\in_the_zone\in_the_zone -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\in_the_zone\in_the_zone" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57fe2989-dcf7-4263-aab9-476849f3d5be" name="Changes" comment="" />
+      <created>1663058975592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663058975592</updated>
+      <workItem from="1663058989041" duration="1186000" />
+      <workItem from="1663060241631" duration="2252000" />
+      <workItem from="1663087424614" duration="2847000" />
+      <workItem from="1663188754884" duration="451000" />
+      <workItem from="1663231136069" duration="2876000" />
+      <workItem from="1663234237043" duration="979000" />
+      <workItem from="1663254577464" duration="10454000" />
+      <workItem from="1663318485126" duration="536000" />
+      <workItem from="1663338897786" duration="1048000" />
+      <workItem from="1663419286353" duration="1620000" />
+      <workItem from="1663432197548" duration="636000" />
+      <workItem from="1663661329475" duration="8867000" />
+      <workItem from="1663858619691" duration="298000" />
+      <workItem from="1664754533824" duration="8000" />
+      <workItem from="1664754629533" duration="1192000" />
+      <workItem from="1664803266393" duration="4499000" />
+      <workItem from="1664812769213" duration="223000" />
+      <workItem from="1664840941167" duration="13132000" />
+      <workItem from="1664868279219" duration="6686000" />
+      <workItem from="1664875645784" duration="334000" />
+      <workItem from="1664876006733" duration="8280000" />
+      <workItem from="1664889441574" duration="2236000" />
+      <workItem from="1664968259441" duration="995000" />
+      <workItem from="1665132126118" duration="2118000" />
+      <workItem from="1665140727850" duration="1130000" />
+      <workItem from="1665151355123" duration="1173000" />
+      <workItem from="1665180337004" duration="2091000" />
+      <workItem from="1665235293974" duration="1439000" />
+      <workItem from="1665267601983" duration="5262000" />
+      <workItem from="1665309435217" duration="1237000" />
+      <workItem from="1665335366250" duration="1474000" />
+      <workItem from="1665348297928" duration="971000" />
+      <workItem from="1665486604153" duration="7027000" />
+      <workItem from="1665499094694" duration="1012000" />
+      <workItem from="1665588203503" duration="956000" />
+      <workItem from="1666082736840" duration="5821000" />
+      <workItem from="1666097355333" duration="2296000" />
+      <workItem from="1666285161250" duration="4249000" />
+      <workItem from="1666338327239" duration="9050000" />
+      <workItem from="1666684403767" duration="735000" />
+      <workItem from="1666718493516" duration="5266000" />
+      <workItem from="1667303740494" duration="5059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Feature_GameDirector/Scripts/TrackSpawnPoints.cs</url>
+          <line>19</line>
+          <properties documentPath="D:\in_the_zone\in_the_zone\Assets\Feature_GameDirector\Scripts\TrackSpawnPoints.cs" initialLine="19" containingFunctionPresentation="method 'GetSpawnLocation'" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

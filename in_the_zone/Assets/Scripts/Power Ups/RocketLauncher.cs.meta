@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 178278763fed1654e8a37b42901676c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rocketPrefab: {fileID: 3481085548161927561, guid: 263ff3fad425c594faa1dbe8c40d771e,
+      type: 3}
+  - spawnPoint: {instanceID: 0}
+  - target: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

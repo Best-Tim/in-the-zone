@@ -1,0 +1,106 @@
+# https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-ML-Agents.md
+# cd F:\GitHub\GD7\in_the_zone\in_the_zone
+# venv\Scripts\activate
+# mlagents-learn Assets/Feature_AI/AI_Config/cardriver.yaml
+behaviors:
+  CarDriver:
+    trainer_type: ppo
+    hyperparameters:
+      # Hyperparameters common to PPO and SAC
+      batch_size: 512
+      buffer_size: 10240
+      learning_rate: 3.0e-4
+      beta: 5.0e-4
+      epsilon: 0.2
+      lambd: 0.99
+      num_epoch: 3
+      learning_rate_schedule: linear
+
+    # Configuration of the neural network (common to PPO/SAC)
+    network_settings:
+      normalize: false
+      vis_encode_type: simple
+      normalize: false
+      hidden_units: 128
+      num_layers: 2
+
+    # Trainer configurations common to all trainers
+    max_steps: 500000
+    time_horizon: 64
+    summary_freq: 100000
+    keep_checkpoints: 5
+    checkpoint_interval: 50000
+    threaded: false
+    init_path: null
+
+    # behavior cloning
+    behavioral_cloning:
+      demo_path: Assets//Demos//DrivingDemo.demo
+      strength: 0
+
+    reward_signals:
+      # environment reward (default)
+      extrinsic:
+        strength: 1
+        gamma: 0.99
+
+      # GAIL
+      gail:
+        strength: 0
+        gamma: 0.99
+        demo_path: Assets//Demos//DrivingDemo.demo
+torch_settings:
+  device: cpu
+engine_settings:
+  width: 84
+  height: 84
+  quality_level: 5
+  time_scale: 20
+  target_frame_rate: -1
+  capture_frame_rate: 60
+  no_graphics: false
+checkpoint_settings:
+  run_id: CarDrivingAgent/learning_v2/v1
+  initialize_from: null
+  load_model: false
+  resume: false
+  force: true
+  train_model: false
+  inference: false
+# env_settings:
+#   env_path: Build/in_the_zone.exe
+#   env_args: null
+#   base_port: 5005
+#   num_envs: 1
+#   seed: -1
+#   max_lifetime_restarts: 10
+#   restarts_rate_limit_n: 1
+#   restarts_rate_limit_period_s: 60
+
+# Curriculum
+# environment_parameters:
+#   my_environment_parameter:
+#     curriculum:
+#     - name: MyFirstLesson # The '-' is important as this is a list
+#       completion_criteria:
+#         measure: progress
+#         behavior: CarDriver
+#         signal_smoothing: true
+#         min_lesson_length: 100
+#         threshold: 0.2
+#       value: 5.0
+#     - name: MySecondLesson # This is the start of the second lesson
+#       completion_criteria:
+#         measure: progress
+#         behavior: CarDriver
+#         signal_smoothing: true
+#         min_lesson_length: 100
+#         threshold: 0.6
+#         require_reset: true
+#       value:
+#         sampler_type: uniform
+#         sampler_parameters:
+#           min_value: 4.0
+#           max_value: 7.0
+#     - name: MyLastLesson
+#       value: 8.0

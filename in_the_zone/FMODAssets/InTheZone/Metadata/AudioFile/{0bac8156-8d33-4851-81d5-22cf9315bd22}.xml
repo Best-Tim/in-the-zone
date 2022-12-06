@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0bac8156-8d33-4851-81d5-22cf9315bd22}">
+		<property name="assetPath">
+			<value>614627__fractanimal__screeching-tyres-tires.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>86.462630385487529</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52bfe31c-9743-432c-b53c-d021dee00409}</destination>
+		</relationship>
+	</object>
+</objects>
